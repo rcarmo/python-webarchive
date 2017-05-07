@@ -2,6 +2,12 @@
 
 This is a quick hack demonstrating how to create WebKit/Safari `.webarchive` files, inspired by [pocket-archive-stream][pas].
 
+## Usage
+
+```bash
+TARGET_URL=http://foo.com python3 main.py
+```
+
 ## Why `.webarchive`?
 
 `.webarchive` is the native web page archive format on the Mac, and is essentially a serialized snapshot of Safari/WebKit state. On a Mac, these files are Spotlight-indexable and can be opened by just about anything that takes a "webpage" as input.
