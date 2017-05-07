@@ -15,11 +15,11 @@ The file format is a nested binary `.plist`, with roughly the following structur
 ```json
 {
     "WebMainResource": {
-        "WebResourceURL": string,
-        "WebResourceMIMEType": string,
-        "WebResourceResponse": NSObject(serialized using NSKeyedArchiver),
-        "WebResourceData": bytes,
-        "WebResourceTextEncodingName": string(optional)
+        "WebResourceURL": String(),
+        "WebResourceMIMEType": String(),
+        "WebResourceResponse": NSKeyedArchiver(NSObject)),
+        "WebResourceData": Bytes(),
+        "WebResourceTextEncodingName": String(optional=True)
     },
     "WebSubresources": [
         {item, item, item...}
