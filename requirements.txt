@@ -1,0 +1,5 @@
+aiohttp
+cssutils
+biplist
+bs4
+lxml
