@@ -39,7 +39,7 @@ The only hitch would be `WebResourceResponse` (which uses a [rather more complex
 * [ ] Look into integrating with [warcprox][warcprox]
 
 [biplist]: https://bitbucket.org/wooster/biplist
-[pas]: (https://github.com/pirate/pocket-archive-stream)
+[pas]: https://github.com/pirate/pocket-archive-stream
 [warc]: https://en.wikipedia.org/wiki/Web_ARChive
 [warcprox]: https://github.com/internetarchive/warcprox
 [nska]: https://www.mac4n6.com/blog/2016/1/1/manual-analysis-of-nskeyedarchiver-formatted-plist-files-a-review-of-the-new-os-x-1011-recent-items
