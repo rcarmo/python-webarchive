@@ -1,8 +1,8 @@
 from asyncio import ensure_future, get_event_loop, wait_for, Queue
 from aiohttp import ClientSession
-from config import log, USER_AGENT, TARGET_URL, ACCEPT_HEADERS, CONCURRENCY, TIMEOUT, OUTPUT_FILENAME
+from config import log, TARGET_URL, ACCEPT_HEADERS, CONCURRENCY, TIMEOUT, OUTPUT_FILENAME
 from biplist import writePlist
-from urllib.parse import urljoin, urldefrag, urlparse, unquote
+from urllib.parse import urljoin, urldefrag, unquote
 from lxml import html
 from cgi import parse_header
 from cssutils import getUrls, parseString
